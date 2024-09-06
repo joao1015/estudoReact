@@ -1,12 +1,13 @@
-
-import Botao from './Componentes/Botao/index';
+import Formulario from './Componentes/Formularios/Formulario';
+import Lista from './Componentes/Lista/Lista';
 
 function App() {
-  
-
   return (
-   <Botao></Botao>
-  )
+    <div>
+      <Formulario />
+      <Lista />
+    </div>
+  );
 }
 
-export default App
+export default App;
