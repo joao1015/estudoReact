@@ -1,10 +1,11 @@
-function botao() {
-  
+import './styles.scss';
 
-    return (
-     <button>Botao</button>
-    )
-  }
-  
-  export default botao
-  
+function Botao() {
+  return (
+    <button className='botao'>
+      Clique Aqui
+    </button>
+  );
+}
+
+export default Botao;
